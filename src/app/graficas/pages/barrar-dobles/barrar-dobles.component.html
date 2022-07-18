@@ -1,1 +1,8 @@
-<p>barrar-dobles works!</p>
+<div class="row">
+    <div class="col-md-6">
+        <app-grafica-barra [dataSets]="datasetsBar" [dataLabels]="anniosLabel" [horizontal]="false"></app-grafica-barra>
+    </div>
+    <div class="col-md-6">
+        <app-grafica-barra [dataSets]="datasetsLine" [dataLabels]="anniosLabel" [horizontal]="true"></app-grafica-barra>
+    </div>
+</div>
